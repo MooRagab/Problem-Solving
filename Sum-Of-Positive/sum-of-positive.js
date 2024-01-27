@@ -8,7 +8,8 @@ function positiveSum(arr) {
 
 console.log(positiveSum([2, 7, 6, -8]));
 
-//Another Solution
+/**Another Solution 
+ -------------------------------------------------------------------------------------**/
 
 function positiveSum(arr) {
   let initValue = 0;
