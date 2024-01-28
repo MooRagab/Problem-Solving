@@ -2,7 +2,7 @@
 //---------------------------------------------------------------------------------------------
 
 function makeNegative(num) {
-  return 0 ? num : -num;
+  return num < 0 ? num : -num;
 }
 
-// console.log(makeNegative(-9));
+// console.log(makeNegative(-5165));
