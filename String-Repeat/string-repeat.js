@@ -9,7 +9,7 @@ function repeatStr(n, s) {
   return newString;
 }
 
-console.log(repeatStr(5, "hello"));
+// console.log(repeatStr(5, "hello"));
 
 /**Another Solution 
  -------------------------------------------------------------------------------------**/
@@ -17,4 +17,4 @@ console.log(repeatStr(5, "hello"));
 function repeatStr(n, s) {
   return s.repeat(n);
 }
-console.log(repeatStr(5, "hello"));
+// console.log(repeatStr(5, "hello"));

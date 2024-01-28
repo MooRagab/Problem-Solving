@@ -12,7 +12,7 @@ function countSheeps(sheep) {
   return sheepNum;
 }
 
-console.log(countSheeps([false, true, false]));
+// console.log(countSheeps([false, true, false]));
 
 /**Another Solution 
  -------------------------------------------------------------------------------------**/
@@ -20,4 +20,4 @@ console.log(countSheeps([false, true, false]));
 function countSheeps(sheep) {
   return sheep.filter(Boolean).length;
 }
-console.log(countSheeps([false, true, true, false]));
+// console.log(countSheeps([false, true, true, false]));

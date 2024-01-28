@@ -4,10 +4,12 @@
 function opposite(number) {
   return number * -1;
 }
-console.log(opposite(651));
+// console.log(opposite(651));
+
 /**Another Solution 
    -------------------------------------------------------------------------------------**/
+   
 function opposite(number) {
   return -number;
 }
-console.log(opposite(-184));
+// console.log(opposite(-184));

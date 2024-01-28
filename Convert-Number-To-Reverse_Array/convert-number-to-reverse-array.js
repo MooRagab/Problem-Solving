@@ -9,4 +9,4 @@ function digitize(n) {
     .map((m) => Number(m));
 }
 
-console.log(digitize(1919542348494));
+// console.log(digitize(1919542348494));

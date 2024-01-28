@@ -6,7 +6,7 @@ function positiveSum(arr) {
   return arr.filter((x) => x > 0).reduce((acc, current) => acc + current, 0);
 }
 
-console.log(positiveSum([2, 7, 6, -8]));
+// console.log(positiveSum([2, 7, 6, -8]));
 
 /**Another Solution 
  -------------------------------------------------------------------------------------**/
@@ -21,4 +21,4 @@ function positiveSum(arr) {
   }
   return initValue;
 }
-console.log(positiveSum([2, 7, 6, -8]));
+// console.log(positiveSum([2, 7, 6, -8]));
