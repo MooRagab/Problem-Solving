@@ -4,7 +4,6 @@ Can you help her?**/
 //---------------------------------------------------------------------------------------------
 
 function greet(name) {
-  return name !== "johnny" ? `Hello ${name}!` : "Hello, my love!";
+  return name !== "Johnny" ? "Hello, " + name + "!" : "Hello, my love!";
 }
-
 console.log(greet("johnny"));
