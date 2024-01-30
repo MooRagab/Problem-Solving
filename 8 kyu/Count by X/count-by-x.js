@@ -10,4 +10,15 @@ function countBy(x, n) {
   }
   return z;
 }
-console.log(countBy(1, 10));
+// console.log(countBy(1, 10));
+
+
+/**Another Solution 
+ -------------------------------------------------------------------------------------**/
+
+ function countBy(x, n) {
+  return Array.from(Array(n + 1).keys())
+  .slice(1)
+  .map((number) => number * x);
+}
+// console.log(countBy(1, 10));
