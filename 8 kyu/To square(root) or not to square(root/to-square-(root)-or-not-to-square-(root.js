@@ -8,4 +8,4 @@ function squareOrSquareRoot(array) {
     Number.isInteger(Math.sqrt(number)) ? Math.sqrt(number) : number * number
   );
 }
-console.log(squareOrSquareRoot([4, 3, 9, 7, 2, 1]));
+// console.log(squareOrSquareRoot([4, 3, 9, 7, 2, 1]));
