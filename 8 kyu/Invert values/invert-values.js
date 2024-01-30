@@ -1,4 +1,6 @@
-/**Write a function that removes the spaces from the string, then return the resultant string.**/
+/**Given a set of numbers, return the additive inverse of each. Each positive becomes negatives,
+ *  and the negatives become positives.
+**/
 //---------------------------------------------------------------------------------------------
 
 function invert(array) {
